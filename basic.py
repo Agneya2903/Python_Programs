@@ -1,3 +1,16 @@
+#Python To Print Odd and Even Numbers between 1 t0 50
+''''
+print(list((filter(lambda i:i%2==1,range(1,50))))) # Odd Numbers
+
+print(list((filter(lambda i:i%2==0,range(1,51))))) # Even Numbers
+'''
+
+#Python Programs to find Squares between 1 and 10
+# for i in range(1,11):
+#     print("The Square of",i,"is",i**2)
+#----------------------------------------------------------------------------------
+
+
 #Python Program for factorial of a number
 '''
 def factorial(n):
