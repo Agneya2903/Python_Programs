@@ -1,5 +1,5 @@
 #Python To Print Odd and Even Numbers between 1 t0 50
-''''
+'''
 print(list((filter(lambda i:i%2==1,range(1,50))))) # Odd Numbers
 
 print(list((filter(lambda i:i%2==0,range(1,51))))) # Even Numbers
